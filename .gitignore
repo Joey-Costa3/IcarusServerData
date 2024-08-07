@@ -1,0 +1,6 @@
+./data/Saved/PlayerData/DedicatedServer/Prospects/*.json.backup*
+./game/
+*
+!*/data/
+!.gitignore
+!icarus.yml
