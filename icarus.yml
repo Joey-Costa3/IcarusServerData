@@ -21,3 +21,12 @@ services:
       - SERVER_RESUME_PROSPECT=False
       - PUID=4711
       - PGID=4711
+      - STEAM_API_KEY=/run/secrets/steam_api_key_localhost
+      - SERVER_IP=136.57.139.52
+      - STEAMCMD_ARGS=validate
+    secrets:
+     - steam_api_key_localhost
+
+secrets:
+    steam_api_key_localhost:
+        file: steam_api_key_localhost.txt

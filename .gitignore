@@ -1,3 +1,4 @@
+steam_api_key_localhost.txt
 data/Saved/PlayerData/DedicatedServer/Prospects/*.json.backup*
 game/**
 !data/**

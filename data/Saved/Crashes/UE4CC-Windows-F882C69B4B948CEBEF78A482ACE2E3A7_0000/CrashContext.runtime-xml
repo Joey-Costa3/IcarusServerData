@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>21DEE8DE41B12600513F12877EDAC199</ExecutionGuid>
+		<CrashGUID>UE4CC-Windows-F882C69B4B948CEBEF78A482ACE2E3A7_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<ErrorMessage>Fatal error: [File:Unknown] [Line: 3159] Could not find SuperStruct BPQ_Travel_C to create BPQ_Travel_Large_C</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>32</ProcessId>
+		<SecondsSinceStart>63171</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE4-Icarus</GameName>
+		<ExecutableName>IcarusServer-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**UE4*Release-4.27-CL-0-Win64-Shipping</Symbols>
+		<PlatformName>WindowsServer</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Server</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.27.2-0+++UE4+Release-4.27</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.27-CL-0</BuildVersion>
+		<IsUE4Release>false</IsUE4Release>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>Z:/opt/icarus/server/Icarus/Binaries/Win64/</BaseDir>
+		<RootDir>Z:/opt/icarus/server/</RootDir>
+		<MachineId>045050034F1292D86469299BB8F60477</MachineId>
+		<LoginId>045050034f1292d86469299bb8f60477</LoginId>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName>BP_IcarusGameState_C</GameStateName>
+		<Misc.NumberOfCores>12</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>20</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>12th Gen Intel(R) Core(TM) i7-12700K</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Wine Adapter</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>67168428032</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>63</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>40830353408</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>40830705664</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>4330582016</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>4870279168</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>5121261568</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>5121261568</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>4</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>IcarusServer-Win64-Shipping 0x0000000140000000 + 1e6a19e IcarusServer-Win64-Shipping 0x0000000140000000 + 1e7c022 IcarusServer-Win64-Shipping 0x0000000140000000 + 1e5dc23 IcarusServer-Win64-Shipping 0x0000000140000000 + 1e7aa91 IcarusServer-Win64-Shipping 0x0000000140000000 + 1e86f59 IcarusServer-Win64-Shipping 0x0000000140000000 + 1e85f7f IcarusServer-Win64-Shipping 0x0000000140000000 + 1e7e13d IcarusServer-Win64-Shipping 0x0000000140000000 + 201872b IcarusServer-Win64-Shipping 0x0000000140000000 + 3446157 IcarusServer-Win64-Shipping 0x0000000140000000 + 887a10 IcarusServer-Win64-Shipping 0x0000000140000000 + 88cc6c</PCallStack>
+		<PCallStackHash>4272465DA55FE2DDCA2EE1325FCE25FEB0DB6FA4</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec kernelbase 0x0000000174000000 + 751fe IcarusServer-Win64-Shipping 0x0000000140000000 + 1e025c0 IcarusServer-Win64-Shipping 0x0000000140000000 + 444677e ntdll 0x0000000170000000 + 5a350 ntdll 0x0000000170000000 + 58b5a ntdll 0x0000000170000000 + 592b9 ntdll 0x0000000170000000 + 56d50 kernelbase 0x0000000174000000 + 13bfe IcarusServer-Win64-Shipping 0x0000000140000000 + 1e02546 IcarusServer-Win64-Shipping 0x0000000140000000 + 1e04106 IcarusServer-Win64-Shipping 0x0000000140000000 + 1dc276d IcarusServer-Win64-Shipping 0x0000000140000000 + 1e6a19e IcarusServer-Win64-Shipping 0x0000000140000000 + 1e7c022 IcarusServer-Win64-Shipping 0x0000000140000000 + 1e5dc23 IcarusServer-Win64-Shipping 0x0000000140000000 + 1e7aa91 IcarusServer-Win64-Shipping 0x0000000140000000 + 1e86f59 IcarusServer-Win64-Shipping 0x0000000140000000 + 1e85f7f IcarusServer-Win64-Shipping 0x0000000140000000 + 1e7e13d IcarusServer-Win64-Shipping 0x0000000140000000 + 201872b IcarusServer-Win64-Shipping 0x0000000140000000 + 3446157 IcarusServer-Win64-Shipping 0x0000000140000000 + 887a10 IcarusServer-Win64-Shipping 0x0000000140000000 + 88cc6c</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>36</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec kernelbase 0x0000000174000000 + 751fe IcarusServer-Win64-Shipping 0x0000000140000000 + 1e1619b IcarusServer-Win64-Shipping 0x0000000140000000 + 1cb6901</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>256</ThreadID>
+				<ThreadName>TaskGraphThreadNP 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec kernelbase 0x0000000174000000 + 751fe IcarusServer-Win64-Shipping 0x0000000140000000 + 1e1619b IcarusServer-Win64-Shipping 0x0000000140000000 + 1cb6901</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>260</ThreadID>
+				<ThreadName>TaskGraphThreadNP 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec kernelbase 0x0000000174000000 + 751fe IcarusServer-Win64-Shipping 0x0000000140000000 + 1e1619b IcarusServer-Win64-Shipping 0x0000000140000000 + 1cb6901</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>264</ThreadID>
+				<ThreadName>TaskGraphThreadNP 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec kernelbase 0x0000000174000000 + 751fe IcarusServer-Win64-Shipping 0x0000000140000000 + 1e1619b IcarusServer-Win64-Shipping 0x0000000140000000 + 1cb6901</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>268</ThreadID>
+				<ThreadName>TaskGraphThreadNP 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>272</ThreadID>
+				<ThreadName>PoolThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>276</ThreadID>
+				<ThreadName>PoolThread 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>280</ThreadID>
+				<ThreadName>FAsyncWriter_Icarus</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack />
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>284</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>332</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>344</ThreadID>
+				<ThreadName>PoolThread 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>348</ThreadID>
+				<ThreadName>PoolThread 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>364</ThreadID>
+				<ThreadName>FMOD File Access Coordinator</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>368</ThreadID>
+				<ThreadName>PoolThread 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>372</ThreadID>
+				<ThreadName>PoolThread 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>376</ThreadID>
+				<ThreadName>PoolThread 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>380</ThreadID>
+				<ThreadName>PoolThread 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>384</ThreadID>
+				<ThreadName>PoolThread 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>388</ThreadID>
+				<ThreadName>PoolThread 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>392</ThreadID>
+				<ThreadName>PoolThread 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>396</ThreadID>
+				<ThreadName>PoolThread 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>400</ThreadID>
+				<ThreadName>PoolThread 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>404</ThreadID>
+				<ThreadName>PoolThread 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>408</ThreadID>
+				<ThreadName>PoolThread 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000170000000 + ec04 kernelbase 0x0000000174000000 + 74aec</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>412</ThreadID>
+				<ThreadName>PoolThread 15</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638619346290890000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData>
+		<RHI.RHIName>NullRHI</RHI.RHIName>
+		<DeviceProfile.Name>WindowsServer</DeviceProfile.Name>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;contexts&quot;: { &quot;Unreal Engine&quot;: { &quot;Engine version&quot;: &quot;4.27.2-0&quot;, &quot;Plugin version&quot;: &quot;0.1.1&quot; }, &quot;GPU Info&quot;: { &quot;DXVer&quot;: &quot;Null&quot;, &quot;DriverVer&quot;: &quot;Unknown&quot; }, &quot;Prospect&quot;: { &quot;Level&quot;: &quot;Terrain_016&quot;, &quot;ActiveProspect?&quot;: &quot;true&quot;, &quot;Prospect ID&quot;: &quot;The Island&quot;, &quot;Account ID&quot;: &quot;&quot;, &quot;Prospect&quot;: &quot;Outpost006_Olympus&quot;, &quot;Mission&quot;: &quot;&quot;, &quot;State&quot;: &quot;Active&quot;, &quot;AssMemberCount&quot;: &quot;1&quot; }, &quot;Instance&quot;: { &quot;Version&quot;: &quot;2.2.20.127215-Shipping-Laika&quot;, &quot;Net&quot;: &quot;DediServer&quot;, &quot;Pak&quot;: &quot;00&quot; } } }</__sentry>
+	</GameData>
+</FGenericCrashContext>
